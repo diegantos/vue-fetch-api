@@ -19,6 +19,5 @@ import Profile from './Profile.vue';
   color: white;
   padding: 2em;
   position: relative;
-  
 }
 </style>

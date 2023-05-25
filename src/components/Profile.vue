@@ -37,13 +37,15 @@ import { useSearchStore } from '@/stores/counter'
 
 const store = useSearchStore()
 
-
-
 </script>
 
 <style scoped>
 .profile{
-    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 0;
 }
 .img{
     max-width: 10em;
@@ -66,11 +68,12 @@ const store = useSearchStore()
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     pointer-events: none;
     z-index: -1;
     display: flex;
     flex-flow: row nowrap;
+    padding: 5em;
 }
 .favorite-img{
     max-width: 8em;
