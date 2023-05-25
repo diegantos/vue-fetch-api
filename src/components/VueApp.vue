@@ -23,6 +23,5 @@ import Profile from './Profile.vue';
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  min-width: 80%;
 }
 </style>
