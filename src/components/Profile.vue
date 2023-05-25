@@ -74,8 +74,11 @@ const store = useSearchStore()
     display: flex;
     flex-flow: row nowrap;
     padding: 5em;
+    border-radius: 0.5em;
 }
 .favorite-img{
     max-width: 8em;
+    border-radius: 0.5em;
+    margin: 0 0.5em 0;
 }
 </style>

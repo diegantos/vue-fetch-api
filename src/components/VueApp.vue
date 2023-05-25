@@ -19,5 +19,10 @@ import Profile from './Profile.vue';
   color: white;
   padding: 2em;
   position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 80%;
 }
 </style>
